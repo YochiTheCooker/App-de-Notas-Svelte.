@@ -7,12 +7,12 @@
     import { darkmode } from '../store/store.js';
     const dispatch = createEventDispatcher();
     function handleChange(){
-     /* dispatch('update', {
+        dispatch('update', {
         id: id,
         text: text,
         color: color,
         title: title
-     }); */
+    });
     }
 
      function handleColor() {
